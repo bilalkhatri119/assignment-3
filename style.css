@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+li, a, .D-button {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.D-button {
+    height: 30px;
+    color: green;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    width: 100%;
+    height: 60px;
+    background-color:rgba(36, 79, 242, 0.8);
+    
+}
+img {
+    width: 20px;
+    height: 20px;
+}
+p {
+    color: whitesmoke;
+}
+.main-d1 {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+
+
+}
+.logo-img {
+    width: 175px;
+    height: 60px;
+}
+.button {
+    margin: 0 4px;
+}
+.button ul li {
+    float: left;
+    color: #808080;
+    width: 115px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    background-color: white;
+    
+}
+.button ul li ul {
+    display: none;
+}
+.button ul li:hover ul {
+    display: block;
+}
+.button ul li:hover {
+    background-color: rgba(36, 79, 242, 0.8);
+    cursor: pointer;
+    color: white;
+    border-radius: 10px 10px;
+}
+.center-image {
+    width: 100%;
+    height: 500px;
+}
+.slide-line {
+    padding: 2px;
+    margin: auto 15px;
+    width: 970px;
+    height: 20px;
+    background-color: rgba(36, 79, 242, 0.8);
+
+}
+.green {
+    color: #00ff00;
+}
+.blue {
+    color:  #0000ff;
+
+}
+.intro-d {
+    margin: 25px 100px;
+    text-align: center;
+
+}
+h1 {
+    text-align: center;
+}
+.h1-s1 {
+    color: #316DC3;
+}
+.h1-s2 {
+    color: #427900;
+}
+.underline {
+    width: 30px;
+    height: 2px;
+}
+.favicon {
+    width: 40px;
+    height: 40px;
+   
+}
+.intro-p {
+    color: #808080;
+    width:800px;
+    text-align: justify;
+    
+    line-height: 25px;
+    margin: auto 20px;
+}
+.main-icons {
+    width: 100%;
+    height: 200px;
+    margin: auto auto;
+    background-color: rgba(36, 79, 242, 0.8);
+    text-align: center;
+    justify-content: space-between;
+}
+table {
+    
+    border-collapse: separate;
+    border-spacing: 25px 25px;
+    color: white;
+    justify-content: space-between;
+    
+}
+.number-icon {
+    font-size: 24px;
+    font-weight: 600;
+}
+.text-icon {
+    font-size: 16px;
+    font-weight: 550;   
+}
+.icons-img {
+    width: 45px;
+    height: 50px;
+}
+.monthly {
+    color: #00ff00;
+}
+.main-what {
+    margin:40px;
+    text-align: center;
+}
+.what-p {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.main-shadow {
+    margin: 40px 10px;
+}
+.shadow-d1 {
+    margin: auto 30px;
+    display: flex;
+    padding: 30px;
+    border-collapse: separate;
+    border-spacing: 20px 15px; 
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+.shadow-d2 {
+    margin: auto 30px;
+    display: flex;
+    padding: 30px;
+    border-collapse: separate;
+    border-spacing: 30px 30px; 
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.shadow-img {
+    width: 60px;
+    height: 70px;
+}
+.shadow-d1 p {
+    width: 220px;
+    border:  1px ;
+    box-shadow: 5px 10px 18px #888888;
+
+    box-sizing: border-box;
+    padding: 30px;
+    color:rgba(36, 79, 242, 0.8) ;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: space-around;
+}
+.shadow-d2 p {
+    width: 220px;
+    border:  1px ;
+    box-shadow: 5px 10px 18px #888888;
+    box-sizing: border-box;
+    padding: 30px;
+    color:rgba(36, 79, 242, 0.8) ;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: space-around;
+}
+.mission-box {
+    padding: 30px;
+    box-sizing: content-box;
+    margin-top: 30px;
+    margin-left: 30px;  
+    width: 225px;
+    height: 20px;
+    padding: 30px;  
+    border: 1px ;
+    background-color: #ececf3;
+}
+.mission-pm {
+    font-size: 26px;
+    font-weight: 600;
+    color: rgba(36, 79, 242, 0.8);
+
+}
+.mission-p {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(36, 79, 242, 0.8);
+}
+.mission-sp {
+    margin-left: 20px;
+}
+.underline-m {
+    width: 40px;
+    height: 3px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+.main-mission {
+    display: flex; 
+    justify-content: space-around; 
+}
+.main-event {
+    
+}
+.event {
+    width: 250px;
+    height: auto;
+    color:  #808080;
+    
+}
+.event span {
+    color: #0000ff;
+}
+.gallery-main {
+    text-align: center;
+    align-items: center;
+}
+.underline-gallery {
+    align-items: center;
+    width: 30px;
+    height: 2px;
+}
+.favicon-gallery {
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.col-img {
+    margin: 30px 40px;
+}
+.col-img img {
+    width: 180px;
+    height: 110px;
+}
+.image1 {
+    opacity: 1;
+}
+.col-img :hover .image1 {
+    opacity: 0.3;
+}
+
+.main-contact {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-around;
+}  
+.contact-1 {
+    padding: 10px 10px 5px;
+    margin: 10px 20px;
+}
+.contact-1 h3 {
+    color: #969494;
+}
+.contact1-img {
+    width: 40px;
+    height: 3px;
+    margin-bottom: 10px;
+}
+.contact1-img2 {
+    width: 40px;
+    height: 35px;
+}
+
+.contact-p {
+    color: #969494;
+    font-size: 15px;  
+}
+.copyright {
+    background-color: rgba(36, 79, 242, 0.8);
+    width: 100%;
+    height: 30px;
+}
+.copyright p {
+    font-size: 14px;
+    padding: 5px;
+}
+.scrolling {
+    width: 60px;
+    height: 55px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media only screen and (max-width:500px) {
+    .shadow-d1, .shadow-d2 {
+     display: block;
+    }
+
+    @media only screen and (max-width:500px) {
+        .main-mission, .main-event {
+         display: block;
+        
+        }
+        @media only screen and (max-width:500px) {
+            .contact-p {
+             font-size: 12px;
+            }
+            @media only screen and (max-width:500px) {
+                .main-contact {
+                 font-size: 10px;
+                 height: 400px;
+                 
+                }
+    
